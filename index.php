@@ -1,5 +1,7 @@
 <?php
+require __DIR__ . '/vendor/autoload.php';
 
-// Asignación 
+// echo Text\Format::upperText('hola');
 
-// Aritmética 
+echo upper('mateo');
+echo lower('MATEO');
